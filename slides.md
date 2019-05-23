@@ -6,8 +6,9 @@ title: implementation details
 implementation details
 
 note: wanted to talk about implementation details
-something ive done, something ive seen at client sites, & seen other peers do
-so
+
+in particular not testing them its something ive done, something ive seen
+at client sites, & seen other peers do so
 going to ask everyone here ->
 
 ---
