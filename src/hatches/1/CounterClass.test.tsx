@@ -5,9 +5,10 @@ import { shallow } from "enzyme";
 describe(Counter, () => {
   describe("test by calling directly", () => {
     it("can add", () => {
-      const wrapper = shallow<Counter>(<Counter />);
+      const wrapper = shallow(<Counter />);
       const counter = wrapper.instance();
 
+      // @ts-ignore
       counter.add();
 
       expect(wrapper.state()).toStrictEqual({

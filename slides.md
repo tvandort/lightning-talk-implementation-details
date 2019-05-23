@@ -66,6 +66,18 @@ write 3 test examples
 2 find button click add check state
 3 find button click check rendered content
 
+---
+
+cool working tests!
+
+what would happen if we...
+
+note:
+change count to clicks
+change add to handleAdd
+
+---
+
 change count to clicks
 change add to handleAdd
 

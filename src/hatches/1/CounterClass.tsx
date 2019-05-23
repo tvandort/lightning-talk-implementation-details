@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../../components/Button";
 
-export default class ClickCounter extends React.Component<
-  {},
-  { count: number }
-> {
+interface State {
+  count: number;
+}
+
+export default class ClickCounter extends React.Component<{}, State> {
   readonly state = {
     count: 0
   };
