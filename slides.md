@@ -43,10 +43,11 @@ well... its ->
 a little hard to define
 
 note: we'll get back to that.
+how about why though
 
 ---
 
-what can testing implementation details cause?
+why don't we want to test implementation details?
 
 ---
 
