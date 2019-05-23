@@ -1,14 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -30,4 +21,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Counter {
+  width: 150px;
+  height: 100px;
+}
+
+.Counter .Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Counter div:not(:last-child) {
+  margin-bottom: 20px;
 }
