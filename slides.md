@@ -76,19 +76,25 @@ note:
 change count to clicks
 change add to handleAdd
 
----
-
-change count to clicks
-change add to handleAdd
-
 both changes break tests
 
-also note we didn't check the output
+---
 
+do both have the same coverage?
+
+note:
 use example 2 to manually set the state check the value <- look more tests
 
 now we have the same coverage. but if we change button click to add 2 instead we
 break the contract.
+
+---
+
+can we break the code...
+
+but keep the tests working?
+
+note: yes use example 1 flip flop add & sub maybe comment out rest
 
 ---
 
