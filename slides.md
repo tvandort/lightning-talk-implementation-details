@@ -59,6 +59,23 @@ what can testing implementation details cause?
 =>
 
 note: time for example
+write 3 test examples
+
+1 get instance call add check state
+2 find button click add check state
+3 find button click check rendered content
+
+change count to clicks
+change add to handleAdd
+
+both changes break tests
+
+also note we didn't check the output
+
+use example 2 to manually set the state check the value <- look more tests
+
+now we have the same coverage. but if we change button click to add 2 instead we
+break the contract.
 
 ---
 
