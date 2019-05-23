@@ -1,7 +1,6 @@
 ---
 transition: none
----
-
+title: implementation details
 ---
 
 implementation details
@@ -51,7 +50,7 @@ why don't we want to test implementation details?
 
 ---
 
-- brittle tests
+- <span class="fragment">brittle tests</span>
 - <span class="fragment">misleading tests</span>
 - <span class="fragment">more tests than needed</span>
 
@@ -98,11 +97,21 @@ note: yes use example 1 flip flop add & sub maybe comment out rest
 
 ---
 
+back to what
+
+---
+
 <q cite="https://kentcdodds.com/blog/testing-implementation-details">
 Implementation details are things which users of your code will not typically
 use, see, or even know about.
 </q>
 
 Kent C. Dodds
+
+note: good kent c dodds blog post i found while writing thing.
+link is in the slides
+
+mention react testing library, not as easy to direct state test.
+doesn't shallow render.
 
 ---
