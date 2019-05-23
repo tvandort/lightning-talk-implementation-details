@@ -42,6 +42,24 @@ well... its ->
 
 a little hard to define
 
+note: we'll get back to that.
+
+---
+
+what can testing implementation details cause?
+
+---
+
+- brittle tests
+- <span class="fragment">misleading tests</span>
+- <span class="fragment">more tests than needed</span>
+
+---
+
+=>
+
+note: time for example
+
 ---
 
 <q cite="https://kentcdodds.com/blog/testing-implementation-details">
@@ -50,11 +68,5 @@ use, see, or even know about.
 </q>
 
 Kent C. Dodds
-
----
-
-- brittle tests
-- <span class="fragment">misleading tests</span>
-- <span class="fragment">more tests than needed</span>
 
 ---
